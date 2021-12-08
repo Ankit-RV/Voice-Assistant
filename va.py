@@ -150,7 +150,7 @@ if __name__ == '__main__':
             speak(f"Sir, the time is {strTime}")
 
         elif 'open opera' in query:
-            codePath = r"C:\\Users\\GAURAV\\AppData\\Local\\Programs\\Opera\\launcher.exe"
+            codePath = r"C:\\Users\\ANKIT\\AppData\\Local\\Programs\\Opera\\launcher.exe"
             os.startfile(codePath)
 
         elif 'email to ankit' in query:
