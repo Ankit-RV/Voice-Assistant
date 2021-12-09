@@ -25,13 +25,13 @@ from bs4 import BeautifulSoup
 import win32com.client as wincl
 from urllib.request import urlopen
 
-'''Now we will set our engine to Pyttsx3 which is used for text to speech in Python and sapi5 is Microsoft speech application platform interface 
+'''Now I will set our engine to Pyttsx3 which is used for text to speech in Python and sapi5 is Microsoft speech application platform interface 
 we will be using this for text to speech function'''
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
 
-'''Main Function starts here, we will now call all these function in main function'''
+'''Main Function starts here, I will now call all these function in main function'''
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
